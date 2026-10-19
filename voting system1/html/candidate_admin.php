@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords"
+		content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="img/icon-48x48.png" />
+
+	<link rel="canonical" href="https://demo-basic.adminkit.io/" />
+
+	<title>Admin Dashboard</title>
+
+	<link href="css/admin_dashboard.css" rel="stylesheet">
+	<link href="css/card.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="index.php">
+					<span class="align-middle">E-Bharat Admin</span>
+				</a>
+
+				<ul class="sidebar-nav">
+					<li class="sidebar-header">
+						Pages
+					</li>
+
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="admin_dashboard.php">
+							<i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="proceed.php">
+							<!--<i class="align-middle" data-feather="user"></i> <span class="align-middle">Profile</span>-->
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="candidate_admin.php">
+							<i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Candidate</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="voters_admin.php">
+							<i class="align-middle" data-feather="user-plus"></i> <span class="align-middle">Voters</span>
+						</a>
+					</li>
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="result1.php">
+							<i class="align-middle" data-feather="award"></i> <span class="align-middle">Result</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="index.php">
+							<i class="align-middle" data-feather="log-out"></i> <span class="align-middle">Log Out</span>
+						</a>
+					</li>
+
+
+			</div>
+		</nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle js-sidebar-toggle">
+					<i class="hamburger align-self-center"></i>
+				</a>
+				<p style="margin-top: 14px; font-size: 25px;">Candidate</p>
+
+			</nav>
+
+			<main class="content" style="margin: auto;">
+				<div class="container">
+
+					<div class="card" style="width: 18rem;">
+						<img src="img/candidate.jpeg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Add Candidate</h5>
+							<p class="card-text">Add Eligible Candidte For Election</p>
+							<a href="addCandidate.php" class="btn btn-primary">Add</a>
+						</div>
+					</div>
+
+					<div class="card" style="width: 18rem;">
+						<img src="img/candidate.jpeg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Candidate List</h5>
+							<p class="card-text">Candidate List at one click</p>
+							<a href="candidate_list.php" class="btn btn-primary" name=listbtn>Candidate List</a>
+						</div>
+					</div>
+
+					<div class="card" style="width: 18rem;">
+						<img src="img/candidate.jpeg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Delete Candidate</h5>
+							<p class="card-text">Prune the non-eligible Candidate</p>
+							<a href="delete_candidate.php" class="btn btn-primary">Delete</a>
+						</div>
+					</div>
+
+
+				</div>
+			</main>
+
+
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="row text-muted">
+						<div class="col-6 text-start">
+							<p class="mb-0">
+								<a class="text-muted" href="#" target="_blank"><strong>E-Bharat</strong></a> - <a class="text-muted"
+									href="#" target="_blank"></a> &copy;
+							</p>
+						</div>
+						<div class="col-6 text-end">
+							<ul class="list-inline">
+								<li class="list-inline-item">
+									<a class="text-muted" href="#" target="_blank">Support</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="#" target="_blank">Help Center</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="#" target="_blank">Privacy</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="#" target="_blank">Terms</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+
+
+
+</body>
+
+</html>
